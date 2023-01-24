@@ -1,0 +1,31 @@
+{
+  "name": "trading-bot-in-node.js",
+  "version": "0.3.0",
+  "description": "Steal My Cryptocurrency Trading Bot!",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.5",
+    "axios": "^1.2.3",
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "infura-web3-provider": "0.0.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.40",
+    "numeral": "^2.0.6",
+    "web3": "^1.8.1"
+  },
+  "devDependencies": {
+    "request": "^2.81.0"
+  },
+  "license": "MIT"
+}
